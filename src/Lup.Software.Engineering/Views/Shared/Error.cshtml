@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "404 - Not Found";
+    Layout = "_PublicLayout";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="page-title"><span class="fw-semi-bold">404</span> - Requested resource could not be found</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <section class="widget">
+            <div class="widget-body">
+                <p>One of our Carrier Pigeons seems to have become lost.</p>
+
+                <div class="img-responsive text-center">
+                    <img src="https://content.lup.com.au/images/carrier.png" alt="Lüp Carrier Pigeon" class="img-rounded" />
+                </div>
+
+                <p>Carrier Pigeons? Yes, <a href="https://en.wikipedia.org/wiki/IP_over_Avian_Carriers">Carrier Pigeons</a>.</p>
+                <p>Given that we are an Australian based company, Carrier Pigeons generally deliver better bandwidth than what is available from the major Telecommunications companies.</p>
+
+                <h3>What Next?</h3>
+                <p>Please contact our <a href="mailto://info@lup.com.au">support staff</a> if you believe the Carrier Pigeons are wrong with the technical information below.</p>
+                <p>They have been known to make mistakes from time to time.</p>
+                @Html.Partial("_TechnicalDetails")
+            </div>
+        </section>
+    </div>
+</div>
